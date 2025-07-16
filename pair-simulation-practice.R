@@ -13,3 +13,8 @@ y <- 2 * x + rnorm(100, sd = 0.3)
 
 # Create scatterplot
 plot(x, y, main = "x vs y: Simulated Linear Data")
+
+# Regression Line
+plot(x, y)
+abline(lm(y ~ x), col = "red", lwd = 2)
+title("Final Plot with Regression Line")
