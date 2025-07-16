@@ -8,4 +8,3 @@
 # Simulate predictor
 x <- rnorm(100)
 
-test
